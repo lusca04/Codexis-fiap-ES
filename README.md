@@ -11,16 +11,19 @@ O problema proposto foi a difuculdade de antendimento do aluno com o HelpDesk, q
 A solução proposta é um sistema de agendamento que permita aos alunos visualizarem horários disponíveis, marcar, cancelar ou reagendar atendimentos de foram simplificadad. Para a coordenação, o sistema oferece controle de agenda, permitindo criar horários e acompanhar todos os atendimentos marcados.
 
 ## 🛠️ Tecnologias Utilizadas
+```text
 └──Python 3.11 
 └──Flask
 └──SqlLite
-
+```
 ## ⚙️ Como Executar
+```text
 └──.venv\Scripts\Activate.ps1
 └──pip install -r requirements.txt
 └──python main.py
-
+```
 ## 📂 Estrutura do Projeto
+```text
 Codexis-fiap-ES/
 └── .cache
     └── fiaplab.db
@@ -43,6 +46,7 @@ Codexis-fiap-ES/
 main.py
 README.md
 requirements.txt
+```
 
 ## 🧩 Funcionalidades Implementadas
 - Cadastro de usuários (RF01)
