@@ -11,38 +11,38 @@ O problema proposto foi a difuculdade de antendimento do aluno com o HelpDesk, q
 A solução proposta é um sistema de agendamento que permita aos alunos visualizarem horários disponíveis, marcar, cancelar ou reagendar atendimentos de foram simplificadad. Para a coordenação, o sistema oferece controle de agenda, permitindo criar horários e acompanhar todos os atendimentos marcados.
 
 ## 🛠️ Tecnologias Utilizadas
-Python 3.11 
-Flask
-SqlLite
+└──Python 3.11 
+└──Flask
+└──SqlLite
 
 ## ⚙️ Como Executar
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python main.py
+└──.venv\Scripts\Activate.ps1
+└──pip install -r requirements.txt
+└──python main.py
 
 ## 📂 Estrutura do Projeto
-fiaplab/
-└── /.cache
-|   └── fiaplab.db
-|   └── userLogin.json
-└── /api
-|   └── /Controller/
-|       └── horario_controller.py
-|       └── login_controller.py
-|       └── usuario_controller.py
-|   └── /Repositories/
-|       └── horario_repository.py
-|       └── login_repository.py
-|       └── usuario_repository.py
-|   └── /Services/
-|       └── horario_service.py
-|       └── usuario_service.py
-|   └── /database/
-|       └── Tabelas.py
-|   └── nucleo_funcional.py
-├── main.py
-└── README.md
-└── requirements.txt
+Codexis-fiap-ES/
+└── .cache
+    └── fiaplab.db
+    └── userLogin.json
+└── api/
+    └── Controller/
+        └── horario_controller.py
+        └── login_controller.py
+        └── usuario_controller.py
+    └── Repositories/
+        └── horario_repository.py
+        └── login_repository.py
+        └── usuario_repository.py
+    └── Services/
+        └── horario_service.py
+        └── usuario_service.py
+    └── database/
+        └── Tabelas.py
+    └── nucleo_funcional.py
+main.py
+README.md
+requirements.txt
 
 ## 🧩 Funcionalidades Implementadas
 - Cadastro de usuários (RF01)
