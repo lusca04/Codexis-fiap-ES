@@ -42,7 +42,7 @@ Codexis-fiap-ES/
         └── usuario_service.py
     └── database/
         └── Tabelas.py
-    └── nucleo_funcional.py
+nucleo_funcional.py
 main.py
 README.md
 requirements.txt
@@ -73,6 +73,6 @@ https://www.youtube.com/watch?v=ycl2t34Js5Y
 - Gustavo Andrade de Sousa RM559069 (commits: feat)
 
 ## 🔗 Links
-- Repositório: github.com/grupo-fiap/fiaplab
+- Repositório: https://github.com/lusca04/Codexis-fiap-ES.git
 - Miro: https://miro.com/app/board/uXjVGqdaLik=/?share_link_id=124295369580
 - Vídeo: https://www.youtube.com/watch?v=ycl2t34Js5Y
